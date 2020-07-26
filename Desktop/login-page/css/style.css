@@ -1,0 +1,133 @@
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+background-image: url("https://lh3.googleusercontent.com/proxy/PuXq9HtNBxkypQU2GK1GEZ6UtTBngjUeXrTY9ZEmp-F1nNQi02Z6BgyxBV5f5u5Oq84c1amVO7WL_QovZ2Nrn8-iENaIef6Iqq_49tEybVBixBw_cjWEbDmU1tybkwzakRKOpn4DnjsAl55perpv4VbYJJ-ixtTW");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+body{
+	padding-top: 20vh;
+}
+.form-container{
+	width: 370px;
+	height: auto;
+	padding: 40px 30px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 #000;
+	margin: auto;
+	position: relative;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.user-img{
+	background:url("https://image.flaticon.com/icons/svg/3014/3014261.svg") no-repeat;
+	width: 100px;
+	height: 100px;
+	background-size: 100%;
+	position: absolute;
+	top: -60px;
+	left: 140px;
+}
+
+ul.list{
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.list li{
+	width: 200px;
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+ul.list li input{
+	width: 250px;
+	text-align: center;
+	padding-top: 50px 0px;
+	border: none;
+	background-color: #d3d3d3;
+	border-radius: 10px;
+}
+
+ul.list li input[type="button1"]{
+	background-color: #999900;
+	color: #fff;
+}
+
+ul.list li:nth-child(5){
+	color: red;
+}
+
+ul.list li input[type="button2"]{
+	background-color: #000080;
+	color: #fff;
+}
+
+ul.list li input[type="button3"]{
+	background-color: #FF0000;
+	color: #fff;
+}
+
+ul.list li input[type="button4"]{
+	background-color: #228B22;
+	color: #fff;
+}
+
+.facebook-button {
+  background: url('https://2.bp.blogspot.com/-lFFvYHv-Z8w/WAOFS0P5FdI/AAAAAAAAF68/Aiv0D5NkUKIbL3_6G42LZm1iQ6co1tmgACLcB/s320/facebook-16px.png')  center no-repeat;
+  position: relative;
+  text-align: center;
+
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+.submit-button{
+  text-align: center;
+}
